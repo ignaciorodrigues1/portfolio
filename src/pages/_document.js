@@ -1,5 +1,6 @@
+import NextDocument, { Head, Html, Main, NextScript } from 'next/document'
+
 import clsx from 'clsx'
-import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
 
 const FAVICON_VERSION = 3
 

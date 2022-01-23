@@ -74,25 +74,25 @@ export default function App({ Component, pageProps, router }) {
       <Title suffix="Ignacio Rodrigues">{meta.metaTitle || meta.title}</Title>
       <Head>
         <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-        <meta key="twitter:site" name="twitter:site" content="@tailwindcss" />
+        <meta key="twitter:site" name="twitter:site" content="@ignacrodrigues" />
         <meta key="twitter:description" name="twitter:description" content={description} />
         <meta
           key="twitter:image"
           name="twitter:image"
-          content={`https://tailwindcss.com${socialCardLarge}`}
+          content={`https://ignaciorodrigues.com${socialCardLarge}`}
         />
         <meta key="twitter:creator" name="twitter:creator" content="@ignacrodrigues" />
         <meta
           key="og:url"
           property="og:url"
-          content={`https://tailwindcss.com${router.pathname}`}
+          content={`https://ignaciorodrigues.com${router.pathname}`}
         />
         <meta key="og:type" property="og:type" content="article" />
         <meta key="og:description" property="og:description" content={description} />
         <meta
           key="og:image"
           property="og:image"
-          content={`https://tailwindcss.com${socialCardLarge}`}
+          content={`https://ignaciorodrigues.com${socialCardLarge}`}
         />
         <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feeds/feed.xml" />
         <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/feeds/atom.xml" />
