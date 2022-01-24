@@ -52,7 +52,7 @@ export function ReadyMadeComponents() {
         <Paragraph>
         I share with you the collection of projects I've been working on all this time. I hope you like them!
         </Paragraph>
-        <Link href="#" color="indigo" darkColor="gray">
+        <Link href="portfolio" color="indigo" darkColor="gray">
           View portfolio
         </Link>
       </div>

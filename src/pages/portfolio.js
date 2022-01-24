@@ -48,6 +48,7 @@ function Header() {
             A featured selection the lastest work of the last years.
           </p>
         </div>
+        
       </div>
     </header>
   )
