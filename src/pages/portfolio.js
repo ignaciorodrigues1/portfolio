@@ -24,7 +24,7 @@ import styles from './index.module.css'
 
 function Header() {
   return (
-    <header className="relative">
+    <header className="relative ">
       <div className="px-4 sm:px-6 md:px-8">
         <div
           className={clsx(

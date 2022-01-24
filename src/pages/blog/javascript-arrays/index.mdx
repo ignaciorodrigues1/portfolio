@@ -1,0 +1,209 @@
+import { ignaciorodrigues } from '@/authors'
+import image from './card.jpg'
+
+export const meta = {
+  title: `"What's methods exist for arrays in Javascript?"`,
+  description: `Arrays in javascript have methods that allow us to perform an operation with all the elements of said array to achieve a specific goal, depending on the method we use.`,
+  date: '2022-01-24T18:30:00.000Z',
+  authors: [ignaciorodrigues],
+  image,
+}
+
+<!--excerpt-->
+
+There are many methods that make it easier for us to work with arrays, so in this post I want to make a summary of some functions that seem fundamental for development.
+
+<!--/excerpt-->
+
+There are many methods that make it easier for us to work with arrays, so in this post I want to make a summary of some functions that seem fundamental for development.
+
+<!--<div className="aspect-w-16 aspect-h-9">
+  <iframe
+    src="https://www.youtube.com/embed/b-hrxkgkG-s?list=PL5f_mz_zU5eV0_7udNKr3qffGCkJ4Avb_"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>-->
+
+["What's methods exist for arrays in Javascript?"](https://ignaciorodrigues.com/blog/javascript-arrays) Arrays in javascript have methods that allow us to perform an operation with all the elements of said array to achieve a specific goal, depending on the method we use.
+It is very useful to know these methods when developing since they make it easier for us to solve problems and can save us lines of code, so this time I bring you some examples of methods such as: map(), filter(), forEach( ), find(), sort(), some(), every(), etc.
+
+- [map()](#map)
+- [filter()](#filter)
+- [forEach()](#for-each)
+- [find()](#find)
+- [sort()](#sort)
+- [some()](#some)
+- [every()](#every)
+- [concat()](#concat)
+- [includes()](#includes)
+- [join()](#join)
+- [reduce()](#reduce)
+- [indexOf()](#index-of)
+- [findIndex()](#find-index)
+
+## map()
+
+Permite recorrer el array y modificar los nuevos elementos presentes en el, retornando un nuevo array con la misma longitud que el original
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+  const resultArray = array.map(item => item * 2);
+  console.log(resultArray); // [2,4,6,8,10,12,14]
+```
+
+## filter()
+
+Recorre el array y retorna un nuevo array con aquellos elementos que pasen una determinada condicion.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+  const resultArray = array.filter((item) => item % 2 == 0);
+  // Filtramos aquellos elementos divisibles por 2
+  console.log(resultArray); // [2,4,6]
+```
+
+## forEach()
+
+Permite iterar el contenido de un array. Recibe un callback que toma como parametro el elemento actual de la iteracion y el indice mismo.
+
+```javascript
+  const heroes = ["Superman", "batman", "Flash", "Aquaman"];
+  const newHeroes = heroes.forEach((element, i) => {
+    console.log(`${element} se encuentra en el indice ${i}`);
+  });
+```
+
+## find()
+
+Recorre el array y retorna la primera coincidencia del elemento que se busca.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+  const resultArray = array.find((item) => item > 3);
+  console.log(resultArray); // 4
+```
+
+## sort()
+
+Ordena los elementos del array y retorna el arreglo ordenado. Los elementos se ordenaran en orden ascendente (de la A a la Z) por defecto.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+  const heroes = ["superman", "Batman", "Flash", "Aquaman"];
+
+  // Ordenar de forma descendente
+  const descArray = array.sort((a, b) => (a > b ? -1 : 1));
+  console.log(descArray); // [7,6,5,4,3,2,1]
+
+  // Ordenar de forma ascendente
+  const ascArray = heroes.sort((a, b) => (a > b ? 1 : -1));
+  console.log(ascArray); // ['Aquaman', 'Batman', 'Flash', 'Superman']
+```
+
+## some()
+
+Itera el array y retorna un booleano si como minimo uno de los elementos presentes en el array pasa una codicion determinada. Recibe un callback que se encargara de preguntar aquello que queremos dentro del array.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+
+  // Los elementos son mayores que 4
+  const isGreaterThanFour = array.some((item) => item > 4);
+  console.log(isGreaterThanFour); // True
+
+  // Los elementos son menores que 0
+  const isLessThanZero = array.some((item) => item < 0);
+  console.log(isLessThanZero); // False
+```
+
+## every()
+
+Es similar al some(), ya que itera el array y retorna un booleano. Pero esta vez, para que dicho booleano sea true todos los elementos del array deberan pasar por la condicion dada.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+
+  // Los elementos son mayores que 4
+  const isGreaterThanFour = array.every((item) => item > 4);
+  console.log(isGreaterThanFour); // False
+
+  // Los elementos son menores que 10
+  const isLessThanTen = array.every((item) => item < 10);
+  console.log(isLessThanTen); // True
+```
+
+## concat()
+
+Se utiliza para unir dos o mas arrays. Este metodo no cambia los arrays existentes, sino que devuelve un nuevo array.
+
+```javascript
+  const array1 = ["a", "b", "c"];
+  const array2 = ["d", "e", "f"];
+
+  const resultArray = array1.concat(array2);
+  console.log(resultArray); // ['a', 'b', 'c', 'd', 'e', 'f']
+```
+
+## includes()
+
+Determina si un array incluye un determinado elemento y retorna un booleano segun corresponda.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+
+  console.log(array.includes(2)); // True
+  console.log(array.includes(8)); // False
+```
+
+## join()
+
+Une todos los elementos de un array en una cadena. Podemos pasarle como parametro el caracter de separacion que debe agregar entre los elementos.
+
+```javascript
+  const array = ["Jack", "Nicky", "Randal"];
+
+  console.log(array.log("")); // JackNickyRandal
+  console.log(array.log(" ")); // Jack Nicky Randal
+  console.log(array.log("-")); // Jack-Nicky-Randal
+```
+
+## reduce()
+
+Aplica una funcion a un acumulador y a cada valor de un array (de izquierda a derecha) para reducirlo a un unico valor.
+
+```javascript
+  const array = [1,2,3,4,5,6,7];
+  const resultArray = array.reduce(
+    (accumulator, current) => accumulator + current
+  );
+
+  console.log(resultArray); // 28
+```
+
+## indexOf()
+
+Retorna el primer indice en el que se puede encontrar un elemento dado en el array, o retorna -1 si el elemento no esta presente.
+
+```javascript
+  const heroes = ["Superman", "batman", "Flash", "Aquaman"];
+  const newHeroes = heroes.indexOf('Flash');
+
+  console.log(newHeroes); // 2
+```
+
+## findIndex()
+
+Retorna el indice del primer elemento de un array que cumpla con la funcion de prueba proporcionada. En caso contrario devuelve -1.
+
+```javascript
+  const heroes = ["Superman", "batman", "Flash", "Aquaman"];
+  const newHeroes = heroes.findIndex((element) => element === "Aquaman");
+
+  console.log(newHeroes); // 3
+```
+
+<Footer>
+  Want to talk about this post? <a href="https://github.com/ignaciorodrigues/">Discuss this on GitHub →</a>
+</Footer>
