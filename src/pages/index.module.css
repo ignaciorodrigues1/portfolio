@@ -7,3 +7,8 @@
   background-image: url('../img/beams/hero-dark@90.jpg');
   background-size: 86.125rem;
 }
+
+.tiny {
+  background-image: url('../img/beams/5-dark@tinypng.png');
+  background-size: 100% 100%;
+}

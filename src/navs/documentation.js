@@ -223,15 +223,15 @@ export const documentationNav = {
     pages['typography-plugin'],
     {
       title: 'Forms',
-      href: 'https://github.com/tailwindlabs/tailwindcss-forms',
+      href: 'https://github.com/IgnacioRodrigues-forms',
     },
     {
       title: 'Aspect Ratio',
-      href: 'https://github.com/tailwindlabs/tailwindcss-aspect-ratio',
+      href: 'https://github.com/IgnacioRodrigues-aspect-ratio',
     },
     {
       title: 'Line Clamp',
-      href: 'https://github.com/tailwindlabs/tailwindcss-line-clamp',
+      href: 'https://github.com/IgnacioRodrigues-line-clamp',
     },
   ],
 }

@@ -57,7 +57,7 @@ export default function App({ Component, pageProps, router }) {
   const showHeader = router.pathname !== '/'
   const meta = Component.layoutProps?.meta || {}
   const description =
-    meta.metaDescription || meta.description || 'Professional portfolio the Ignacio Rodrigues'
+    meta.metaDescription || meta.description || 'Rodrigues Ignacio - Professional portfolio'
 
   if (router.pathname.startsWith('/examples/')) {
     return <Component {...pageProps} />

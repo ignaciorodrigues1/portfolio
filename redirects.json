@@ -289,7 +289,7 @@
   },
   {
     "source": "/community",
-    "destination": "https://github.com/tailwindlabs/tailwindcss/discussions",
+    "destination": "https://github.com/IgnacioRodrigues/discussions",
     "permanent": false
   },
   {

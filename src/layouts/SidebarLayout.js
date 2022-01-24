@@ -1,10 +1,11 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { createContext, forwardRef, useRef } from 'react'
-import { useIsomorphicLayoutEffect } from '@/hooks/useIsomorphicLayoutEffect'
-import clsx from 'clsx'
-import { SearchButton } from '@/components/Search'
+
 import { Dialog } from '@headlessui/react'
+import Link from 'next/link'
+import { SearchButton } from '@/components/Search'
+import clsx from 'clsx'
+import { useIsomorphicLayoutEffect } from '@/hooks/useIsomorphicLayoutEffect'
+import { useRouter } from 'next/router'
 
 export const SidebarContext = createContext()
 
@@ -433,7 +434,7 @@ function TopLevelNav({ mobile }) {
       </TopLevelLink>
       <TopLevelLink
         mobile={mobile}
-        href="https://github.com/tailwindlabs/tailwindcss/discussions"
+        href="https://github.com/IgnacioRodrigues/discussions"
         className="mb-8"
         shadow="group-hover:shadow-violet-200 dark:group-hover:bg-violet-500"
         icon={

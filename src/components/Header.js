@@ -106,7 +106,7 @@ export function NavPopover({ display = 'md:hidden', className, ...props }) {
             <NavItems />
             <li>
               <a
-                href="https://github.com/tailwindlabs/tailwindcss"
+                href="https://github.com/IgnacioRodrigues"
                 className="hover:text-sky-500 dark:hover:text-sky-400"
               >
                 GitHub
@@ -126,14 +126,9 @@ export function NavItems() {
   return (
     <>
       <li>
-        <Link href="#">
-          <a className="hover:text-sky-500 dark:hover:text-sky-400">About me</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="#">
+        <Link href="portfolio">
           <a className="hover:text-sky-500 dark:hover:text-sky-400">
-            Projects
+            Portfolio
           </a>
         </Link>
       </li>
@@ -226,7 +221,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                 <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                   <ThemeToggle panelClassName="mt-8" />
                   <a
-                    href="https://github.com/tailwindlabs/tailwindcss"
+                    href="https://github.com/IgnacioRodrigues"
                     className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                   >
                     <span className="sr-only">Tailwind CSS on GitHub</span>

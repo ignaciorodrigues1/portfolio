@@ -1,9 +1,9 @@
-import { DocumentationLayout } from '@/layouts/DocumentationLayout'
-import { Button } from '@/components/Button'
-import clsx from 'clsx'
 import { BasicLayout } from '@/layouts/BasicLayout'
+import { Button } from '@/components/Button'
 import { ReactComponent as DiscordIcon } from '@/img/icons/discord.svg'
+import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { ReactComponent as GitHubIcon } from '@/img/icons/github.svg'
+import clsx from 'clsx'
 
 function CardGroup({ children, className }) {
   return (
@@ -337,7 +337,7 @@ export default function Resources() {
               },
               {
                 title: 'GitHub Discussions',
-                href: 'https://github.com/tailwindlabs/tailwindcss/discussions',
+                href: 'https://github.com/IgnacioRodrigues/discussions',
                 description:
                   'Have an issue with your project? Connect with other members of the Tailwind community to get some assistance.',
                 icon: (

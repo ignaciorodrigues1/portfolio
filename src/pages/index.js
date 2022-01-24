@@ -91,47 +91,9 @@ function Header() {
             Hi, I'm Ignacio Rodrigues and this is my professional portfolio.
           </h1>
           <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">
-            My passion is creating interfaces with a great user experience and <code className="font-mono font-medium text-sky-500 dark:text-sky-400">pixel-perfect</code> for high-impact brands. Entrepreneur, always exploring new technologies and pushing them to the limit, runner, traveler, read a lot and takes photos.
+            My passion is creating interfaces with a great user experience and <code className="font-mono font-medium text-sky-500 dark:text-sky-400">pixel-perfect</code> for high-impact brands. Entrepreneur, always exploring new technologies and pushing them to the limit, runner, traveler and I like read a lot.
           </p>
-          <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
-            <NextLink href="#">
-              <a className="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400">
-                More about me
-              </a>
-            </NextLink>
-            <SearchButton className="hidden sm:flex items-center w-72 text-left space-x-3 px-4 h-12 bg-white ring-1 ring-slate-900/10 hover:ring-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm rounded-lg text-slate-400 dark:bg-slate-800 dark:ring-0 dark:text-slate-300 dark:highlight-white/5 dark:hover:bg-slate-700">
-              {({ actionKey }) => (
-                <>
-                  <svg
-                    width="24"
-                    height="24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="flex-none text-slate-300 dark:text-slate-400"
-                    aria-hidden="true"
-                  >
-                    <path d="m19 19-3.5-3.5" />
-                    <circle cx="11" cy="11" r="6" />
-                  </svg>
-                  <span className="flex-auto">Quick search...</span>
-                  {actionKey && (
-                    <kbd className="font-sans font-semibold dark:text-slate-500">
-                      <abbr
-                        title={actionKey[1]}
-                        className="no-underline text-slate-300 dark:text-slate-500"
-                      >
-                        {actionKey[0]}
-                      </abbr>{' '}
-                      K
-                    </kbd>
-                  )}
-                </>
-              )}
-            </SearchButton>
-          </div>
+          
         </div>
       </div>
       <Hero />
@@ -146,14 +108,14 @@ export default function Home() {
         <meta
           key="twitter:title"
           name="twitter:title"
-          content="Hi, I'm Ignacio Rodrigues and this is my professional portfolio."
+          content="Rodrigues Ignacio - Professional portfolio"
         />
         <meta
           key="og:title"
           property="og:title"
-          content="Hi, I'm Ignacio Rodrigues and this is my professional portfolio."
+          content="Rodrigues Ignacio - Professional portfolio"
         />
-        <title>Hi, I'm Ignacio Rodrigues</title>
+        <title>Rodrigues Ignacio - Professional portfolio</title>
       </Head>
       <div className="mb-20 space-y-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40">
         <Header />
@@ -196,7 +158,7 @@ export default function Home() {
         {/*<EditorTools />*/}
         <ReadyMadeComponents />
       </div>
-      {/*<Footer />*/}
+      <Footer />
     </>
   )
 }

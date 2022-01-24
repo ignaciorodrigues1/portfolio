@@ -1,14 +1,15 @@
-import { useState, useEffect, createContext, Fragment, useCallback, useContext } from 'react'
+import { Fragment, createContext, useCallback, useContext, useEffect, useState } from 'react'
+import { SidebarContext, SidebarLayout } from '@/layouts/SidebarLayout'
+
 import { ClassTable } from '@/components/ClassTable'
-import { useRouter } from 'next/router'
-import { usePrevNext } from '@/hooks/usePrevNext'
-import Link from 'next/link'
-import { SidebarLayout, SidebarContext } from '@/layouts/SidebarLayout'
-import { PageHeader } from '@/components/PageHeader'
-import clsx from 'clsx'
 import { Footer } from '@/components/Footer'
 import { Heading } from '@/components/Heading'
+import Link from 'next/link'
 import { MDXProvider } from '@mdx-js/react'
+import { PageHeader } from '@/components/PageHeader'
+import clsx from 'clsx'
+import { usePrevNext } from '@/hooks/usePrevNext'
+import { useRouter } from 'next/router'
 
 export const ContentsContext = createContext()
 
@@ -199,7 +200,7 @@ export function ContentsLayout({ children, meta, classes, tableOfContents, secti
 
       <Footer previous={prev} next={next}>
         <Link
-          href={`https://github.com/tailwindlabs/tailwindcss.com/edit/master/src/pages${router.pathname}.mdx`}
+          href={`https://github.com/IgnacioRodrigues.com/edit/master/src/pages${router.pathname}.mdx`}
         >
           <a className="hover:text-slate-900 dark:hover:text-slate-400">Edit this page on GitHub</a>
         </Link>
