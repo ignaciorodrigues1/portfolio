@@ -1,8 +1,8 @@
 import { BasicLayout } from '@/layouts/BasicLayout'
 import { Button } from '@/components/Button'
-import { ReactComponent as DiscordIcon } from '@/img/icons/discord.svg'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { ReactComponent as GitHubIcon } from '@/img/icons/github.svg'
+import { ReactComponent as LinkedinIcon } from '@/img/icons/linkedin.svg'
 import clsx from 'clsx'
 
 function CardGroup({ children, className }) {
@@ -323,17 +323,17 @@ export default function Resources() {
           <ul className="grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2">
             {[
               {
-                title: 'Discord',
-                href: '/discord',
+                title: 'Contact me',
+                href: 'https://www.linkedin.com/in/ignaciorodrigues/',
                 description:
                   'Join over 10,000 members on the Discord group to chat about Tailwind and other related topics.',
                 icon: (
-                  <Icon className="bg-[#838CF1]/[0.15] dark:bg-indigo-700">
-                    <DiscordIcon className="w-6 h-auto dark:fill-indigo-200" />
+                  <Icon className="bg-[#0E76A8]/[0.15] dark:bg-blue-700">
+                    <LinkedinIcon className="w-6 h-auto dark:fill-blue-200" />
                   </Icon>
                 ),
                 className:
-                  'ring-1 ring-slate-900/10 dark:bg-indigo-500 dark:ring-0 dark:highlight-white/20',
+                  'ring-1 ring-slate-900/10 dark:bg-blue-500 dark:ring-0 dark:highlight-white/20',
               },
               {
                 title: 'GitHub Discussions',
