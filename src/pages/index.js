@@ -5,22 +5,34 @@ import { ComponentDriven } from '@/components/home/ComponentDriven'
 import { ConstraintBased } from '@/components/home/ConstraintBased'
 import { Customization } from '@/components/home/Customization'
 import { DarkMode } from '@/components/home/DarkMode'
-import { EditorTools } from '@/components/home/EditorTools'
-import { Footer } from '@/components/home/Footer'
+import { Footer } from '@/components/Footer'
+import { ReactComponent as GitHubIcon } from '@/img/icons/github.svg'
 import Head from 'next/head'
 import { Hero } from '@/components/home/Hero'
+import { ReactComponent as LinkedinIcon } from '@/img/icons/linkedin.svg'
 import { Logo } from '@/components/Logo'
 import { MobileFirst } from '@/components/home/MobileFirst'
 import { ModernFeatures } from '@/components/home/ModernFeatures'
-import NextLink from 'next/link'
 import { Performance } from '@/components/home/Performance'
 import { ReadyMadeComponents } from '@/components/home/ReadyMadeComponents'
 import { SearchButton } from '@/components/Search'
 import { StateVariants } from '@/components/home/StateVariants'
-import { Testimonials } from '@/components/Testimonials'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import clsx from 'clsx'
 import styles from './index.module.css'
+
+function Icon({ children, className }) {
+  return (
+    <div
+      className={clsx(
+        'relative pt-full rounded-full ring-1 ring-inset ring-slate-900/5',
+        className
+      )}
+    >
+      <div className="absolute inset-0 flex items-center justify-center">{children}</div>
+    </div>
+  )
+}
 
 function Header() {
   return (
@@ -158,7 +170,91 @@ export default function Home() {
         {/*<EditorTools />*/}
         <ReadyMadeComponents />
       </div>
-      <Footer />
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8'>
+        
+      <section className="border-t border-slate-100 pt-16 dark:border-slate-200/5">
+        <h2 className="mb-2 text-xl tracking-tight text-slate-900 font-bold dark:text-slate-200">
+          Let's develop together
+        </h2>
+        <div className="mb-10 prose prose-slate text-slate-600 max-w-3xl dark:prose-dark">
+          <p>
+            Whether you're a beginner or an advanced user, getting involved in the Tailwind
+            community is a great way to connect with like-minded folks who are building awesome
+            things with the framework.
+          </p>
+        </div>
+
+        <ul className="grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2">
+          {[
+            {
+              title: 'Contact me',
+              href: 'https://www.linkedin.com/in/ignaciorodrigues/',
+              description:
+                'Join over 10,000 members on the Discord group to chat about Tailwind and other related topics.',
+              icon: (
+                <Icon className="bg-[#0E76A8]/[0.15] dark:bg-blue-700">
+                  <LinkedinIcon className="w-6 h-auto dark:fill-blue-200" />
+                </Icon>
+              ),
+              className:
+                'ring-1 ring-slate-900/10 dark:bg-blue-500 dark:ring-0 dark:highlight-white/20',
+            },
+            {
+              title: 'GitHub Profile',
+              href: 'https://github.com/IgnacioRodrigues/',
+              description:
+                'Have an issue with your project? Connect with other members of the Tailwind community to get some assistance.',
+              icon: (
+                <Icon className="bg-slate-100 dark:bg-slate-800">
+                  <GitHubIcon className="w-7 h-auto dark:fill-slate-400" />
+                </Icon>
+              ),
+              className:
+                'ring-1 ring-slate-900/10 dark:bg-slate-600 dark:ring-0 dark:highlight-white/20',
+            },
+          ].map(({ title, href, description, icon, className }) => (
+            <li key={title} className="relative flex flex-row-reverse">
+              <div className="peer group flex-auto ml-6">
+                <h3 className="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+                  <a
+                    href={href}
+                    className="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4"
+                  >
+                    {title}
+                    <svg
+                      viewBox="0 0 3 6"
+                      className="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100"
+                    >
+                      <path
+                        d="M0 0L3 3L0 6"
+                        fill="none"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </h3>
+                <p className="text-sm leading-6 text-slate-600 dark:text-slate-400">
+                  {description}
+                </p>
+              </div>
+              <div
+                className={clsx(
+                  'flex-none w-16 h-16 p-[0.1875rem] rounded-full shadow overflow-hidden pointer-events-none',
+                  className
+                )}
+              >
+                {icon}
+              </div>
+              <div className="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4" />
+            </li>
+          ))}
+        </ul>
+      </section>
+        <Footer />
+      </div>
     </>
   )
 }

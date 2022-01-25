@@ -12,3 +12,10 @@
   background-image: url('../img/beams/5-dark@tinypng.png');
   background-size: 100% 100%;
 }
+
+.wireframes {
+  background-image: url('../img/portfolio/hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
