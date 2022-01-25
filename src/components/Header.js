@@ -126,7 +126,7 @@ export function NavItems() {
   return (
     <>
       <li>
-        <Link href="portfolio">
+        <Link href="/portfolio">
           <a className="hover:text-sky-500 dark:hover:text-sky-400">
             Portfolio
           </a>
@@ -206,7 +206,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                     Router.push('/brand')
                   }}
                 >
-                  <span className="sr-only">Tailwind CSS home page</span>
+                  <span className="sr-only">Ignacio Rodrigues home page</span>
                   <Logo className="h-6" />
                 </a>
               </Link>

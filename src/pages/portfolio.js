@@ -93,10 +93,10 @@ function Header() {
         </div>
         <div className="relative max-w-5xl mx-auto h-screen flex flex-col items-start justify-center">
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-left dark:text-white">
-            My portfolio.
+            Portfolio.
           </h1>
           <p className="mt-6 text-lg text-slate-600 text-left dark:text-slate-400">
-            A featured selection the lastest work of the last years.
+            A selection of my experience working in software development. <br/> I have expectation that you will like it.
           </p>
         </div>
         
@@ -143,11 +143,74 @@ export default function Portfolio() {
                 <ul className="sm:space-y-6">
                   {[
                     {
+                      title: 'Black iD',
+                      description: 'Black iD',
+                      images: [
+                        require('@/img/resources/care26-small@75.jpg').default,
+                        require('@/img/resources/care26@75.jpg').default,
+                      ],
+                      color: 'text-gray-500',
+                      href: 'https://care26.com',
+                      body: (
+                        <>
+                          <p>
+                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
+                          </p>
+                          <p>
+                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
+                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                          </p>
+                        </>
+                      ),
+                    },
+                    {
+                      title: 'Boehringer Ingelheim',
+                      description: 'A su lado',
+                      images: [
+                        require('@/img/resources/care26-small@75.jpg').default,
+                        require('@/img/resources/care26@75.jpg').default,
+                      ],
+                      color: 'text-orange-500',
+                      href: '',
+                      body: (
+                        <>
+                          <p>
+                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
+                          </p>
+                          <p>
+                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
+                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                          </p>
+                        </>
+                      ),
+                    },
+                    {
+                      title: 'Andromeda Latam',
+                      description: 'Sobio',
+                      images: [
+                        require('@/img/resources/care26-small@75.jpg').default,
+                        require('@/img/resources/care26@75.jpg').default,
+                      ],
+                      color: 'text-blue-500',
+                      href: 'https://care26.com',
+                      body: (
+                        <>
+                          <p>
+                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
+                          </p>
+                          <p>
+                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
+                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                          </p>
+                        </>
+                      ),
+                    },
+                    {
                       title: 'Making Sense',
                       description: 'Care26 Website',
                       images: [
-                        require('@/img/resources/refactoringui-small@75.jpg').default,
-                        require('@/img/resources/refactoringui@75.jpg').default,
+                        require('@/img/resources/care26-small@75.jpg').default,
+                        require('@/img/resources/care26@75.jpg').default,
                       ],
                       color: 'text-green-500',
                       href: 'https://care26.com',
@@ -167,8 +230,8 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'Doppler Website',
                       images: [
-                        require('@/img/resources/tailwindui-small@75.jpg').default,
-                        require('@/img/resources/tailwindui@75.jpg').default,
+                        require('@/img/resources/doppler-small@75.jpg').default,
+                        require('@/img/resources/doppler@75.jpg').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://fromdoppler.com',
@@ -188,6 +251,57 @@ export default function Portfolio() {
                         require('@/img/resources/doppler-academy@75.jpg').default,
                       ],
                       color: 'text-yellow-500',
+                      href: 'https://fromdoppler.com',
+                      body: (
+                        <>
+                          <p>
+                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                          </p>
+                        </>
+                      ),
+                    },
+                    {
+                      title: 'Doppler',
+                      description: 'EMMS 2017-2018-2019-2020',
+                      images: [
+                        require('@/img/resources/doppler-academy-small@75.jpg').default,
+                        require('@/img/resources/doppler-academy@75.jpg').default,
+                      ],
+                      color: 'text-yellow-500',
+                      href: 'https://goemms.com',
+                      body: (
+                        <>
+                          <p>
+                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                          </p>
+                        </>
+                      ),
+                    },
+                    {
+                      title: 'Embalajes Santa Catalina',
+                      description: 'Embalajes Santa Catalina',
+                      images: [
+                        require('@/img/resources/doppler-academy-small@75.jpg').default,
+                        require('@/img/resources/doppler-academy@75.jpg').default,
+                      ],
+                      color: 'text-red-500',
+                      href: 'https://fromdoppler.com',
+                      body: (
+                        <>
+                          <p>
+                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                          </p>
+                        </>
+                      ),
+                    },
+                    {
+                      title: 'Pasalto',
+                      description: 'Pasalto',
+                      images: [
+                        require('@/img/resources/doppler-academy-small@75.jpg').default,
+                        require('@/img/resources/doppler-academy@75.jpg').default,
+                      ],
+                      color: 'text-blue-500',
                       href: 'https://fromdoppler.com',
                       body: (
                         <>
