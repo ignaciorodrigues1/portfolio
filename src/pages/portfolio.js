@@ -311,6 +311,23 @@ export default function Portfolio() {
                         </>
                       ),
                     },
+                    {
+                      title: ' ',
+                      description: 'Action - To do list',
+                      images: [
+                        require('@/img/resources/doppler-academy-small@75.jpg').default,
+                        require('@/img/resources/doppler-academy@75.jpg').default,
+                      ],
+                      color: 'text-yellow-500',
+                      href: 'https://goemms.com',
+                      body: (
+                        <>
+                          <p>
+                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                          </p>
+                        </>
+                      ),
+                    },
                   ].map(({ title, description, images, color, body, href }) => (
                     <li
                       key={title}
