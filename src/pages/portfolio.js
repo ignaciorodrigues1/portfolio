@@ -349,7 +349,7 @@ export default function Portfolio() {
                           ]}
                           darkColor="gray"
                         >
-                          Learn more<span className="sr-only">, {title}</span>
+                          View project<span className="sr-only">, {title}</span>
                         </Button>
                       </div>
                       <div className="w-full flex-none mb-10 xl:mb-0 xl:ml-8 xl:w-[29rem]">
