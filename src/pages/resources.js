@@ -102,11 +102,11 @@ export default function Resources() {
                 title: 'Refactoring UI',
                 description: 'Learn UI Design',
                 images: [
-                  require('@/img/resources/refactoringui-small@75.jpg').default,
-                  require('@/img/resources/refactoringui@75.jpg').default,
+                  require('@/img/resources/care26-small@75.jpg').default,
+                  require('@/img/resources/care26@75.jpg').default,
                 ],
                 color: 'text-blue-500',
-                href: 'https://refactoringui.com',
+                href: 'https://care26.com',
                 body: (
                   <>
                     <p>
@@ -125,11 +125,11 @@ export default function Resources() {
                 title: 'Tailwind UI',
                 description: 'Beautiful UI components, crafted by the creators of Tailwind CSS',
                 images: [
-                  require('@/img/resources/tailwindui-small@75.jpg').default,
-                  require('@/img/resources/tailwindui@75.jpg').default,
+                  require('@/img/resources/doppler-small@75.jpg').default,
+                  require('@/img/resources/doppler@75.jpg').default,
                 ],
                 color: 'text-sky-500',
-                href: 'https://tailwindui.com',
+                href: 'https://fromdoppler.com',
                 body: (
                   <>
                     <p>
