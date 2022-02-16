@@ -146,8 +146,8 @@ export default function Portfolio() {
                       title: 'Black iD',
                       description: 'Black iD',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/blackid-small@75.png').default,
+                        require('@/img/resources/blackid@75.png').default,
                       ],
                       color: 'text-gray-500',
                       href: 'https://care26.com',
@@ -163,8 +163,8 @@ export default function Portfolio() {
                       title: 'Boehringer Ingelheim',
                       description: 'A su lado',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/bohering-small@75.png').default,
+                        require('@/img/resources/bohering@75.png').default,
                       ],
                       color: 'text-orange-500',
                       href: '',
@@ -180,8 +180,8 @@ export default function Portfolio() {
                       title: 'Andromeda Latam',
                       description: 'Sobio',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/sobio-small@75.png').default,
+                        require('@/img/resources/sobio@75.png').default,
                       ],
                       color: 'text-blue-500',
                       href: 'https://care26.com',
@@ -197,8 +197,8 @@ export default function Portfolio() {
                       title: 'Making Sense',
                       description: 'Care26 Website',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/care26-small@75.png').default,
+                        require('@/img/resources/care26@75.png').default,
                       ],
                       color: 'text-green-500',
                       href: 'https://care26.com',
@@ -214,8 +214,8 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'Doppler Website',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/doppler-small@75.png').default,
+                        require('@/img/resources/doppler@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://fromdoppler.com',
@@ -231,8 +231,8 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'Doppler Academy',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/academy-small@75.png').default,
+                        require('@/img/resources/academy@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://fromdoppler.com',
@@ -248,8 +248,8 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'EMMS 2017-2018-2019-2020',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/emms-small@75.png').default,
+                        require('@/img/resources/emms@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://goemms.com',
@@ -265,8 +265,8 @@ export default function Portfolio() {
                       title: 'Embalajes Santa Catalina',
                       description: 'Embalajes Santa Catalina',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/embalajes-small@75.png').default,
+                        require('@/img/resources/embalajes@75.png').default,
                       ],
                       color: 'text-red-500',
                       href: 'https://fromdoppler.com',
@@ -282,8 +282,8 @@ export default function Portfolio() {
                       title: 'Pasalto',
                       description: 'Pasalto',
                       images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
+                        require('@/img/resources/pasalto-small@75.png').default,
+                        require('@/img/resources/pasalto@75.png').default,
                       ],
                       color: 'text-blue-500',
                       href: 'https://fromdoppler.com',
@@ -291,23 +291,6 @@ export default function Portfolio() {
                         <>
                           <p>
                             Website. Wordpress Developer.
-                          </p>
-                        </>
-                      ),
-                    },
-                    {
-                      title: ' ',
-                      description: 'Action - To do list',
-                      images: [
-                        require('@/img/resources/default-small@75.png').default,
-                        require('@/img/resources/default@75.png').default,
-                      ],
-                      color: 'text-yellow-500',
-                      href: 'https://goemms.com',
-                      body: (
-                        <>
-                          <p>
-                            App for Google Chrome. FullStack Developer.
                           </p>
                         </>
                       ),
