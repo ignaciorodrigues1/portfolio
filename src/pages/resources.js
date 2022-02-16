@@ -338,7 +338,7 @@ export default function Resources() {
                 title: 'GitHub Discussions',
                 href: 'https://github.com/IgnacioRodrigues/discussions',
                 description:
-                  'Have an issue with your project? Connect with other members of the Tailwind community to get some assistance.',
+                  'My projects',
                 icon: (
                   <Icon className="bg-slate-100 dark:bg-slate-800">
                     <GitHubIcon className="w-7 h-auto dark:fill-slate-400" />

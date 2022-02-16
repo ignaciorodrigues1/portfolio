@@ -5,8 +5,8 @@ import { documentationNav } from '@/navs/documentation'
 const footerNav = [
   {
     Community: [
-      { title: 'GitHub', href: 'https://github.com/IgnacioRodrigues' },
-      { title: 'Twitter', href: 'https://twitter.com/tailwindcss' },
+      { title: 'GitHub', href: 'https://github.com/IgnacioRodrigues1' },
+      { title: 'Twitter', href: 'https://twitter.com/ignacrodrigues' },
       { title: 'Instagram', href: 'https://www.instagram.com/ignaciorodrigues/' },
     ],
   },
