@@ -150,7 +150,7 @@ export default function Portfolio() {
                         require('@/img/resources/blackid@75.png').default,
                       ],
                       color: 'text-gray-500',
-                      href: 'https://care26.com',
+                      href: 'https://blackid.com.ar',
                       body: (
                         <>
                           <p>
@@ -184,11 +184,11 @@ export default function Portfolio() {
                         require('@/img/resources/sobio@75.png').default,
                       ],
                       color: 'text-blue-500',
-                      href: 'https://care26.com',
+                      href: 'https://www.sobio.cloud/',
                       body: (
                         <>
                           <p>
-                            Design Webapp, UI developer.
+                            UI developer.
                           </p>
                         </>
                       ),
@@ -235,7 +235,7 @@ export default function Portfolio() {
                         require('@/img/resources/academy@75.png').default,
                       ],
                       color: 'text-yellow-500',
-                      href: 'https://fromdoppler.com',
+                      href: 'https://doppleracademy.com',
                       body: (
                         <>
                           <p>
@@ -269,7 +269,7 @@ export default function Portfolio() {
                         require('@/img/resources/embalajes@75.png').default,
                       ],
                       color: 'text-red-500',
-                      href: 'https://fromdoppler.com',
+                      href: 'https://embalajesantacatalina.com',
                       body: (
                         <>
                           <p>
@@ -286,7 +286,7 @@ export default function Portfolio() {
                         require('@/img/resources/pasalto@75.png').default,
                       ],
                       color: 'text-blue-500',
-                      href: 'https://fromdoppler.com',
+                      href: 'http://pasalto.com',
                       body: (
                         <>
                           <p>
