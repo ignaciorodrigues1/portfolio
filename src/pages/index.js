@@ -81,7 +81,7 @@ function Header() {
               <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                 <ThemeToggle />
                 <a
-                  href="https://github.com/IgnacioRodrigues"
+                  href="https://github.com/IgnacioRodrigues1"
                   className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                 >
                   <span className="sr-only">Ignacio Rodrigues on GitHub</span>
@@ -201,9 +201,9 @@ export default function Home() {
             },
             {
               title: 'GitHub Profile',
-              href: 'https://github.com/IgnacioRodrigues/',
+              href: 'https://github.com/IgnacioRodrigues1/',
               description:
-                'Have an issue with your project? Connect with other members of the Tailwind community to get some assistance.',
+                'My projects',
               icon: (
                 <Icon className="bg-slate-100 dark:bg-slate-800">
                   <GitHubIcon className="w-7 h-auto dark:fill-slate-400" />

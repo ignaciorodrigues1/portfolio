@@ -106,7 +106,7 @@ export function NavPopover({ display = 'md:hidden', className, ...props }) {
             <NavItems />
             <li>
               <a
-                href="https://github.com/IgnacioRodrigues"
+                href="https://github.com/IgnacioRodrigues1"
                 className="hover:text-sky-500 dark:hover:text-sky-400"
               >
                 GitHub
@@ -221,7 +221,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                 <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                   <ThemeToggle panelClassName="mt-8" />
                   <a
-                    href="https://github.com/IgnacioRodrigues"
+                    href="https://github.com/IgnacioRodrigues1"
                     className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                   >
                     <span className="sr-only">Tailwind CSS on GitHub</span>
