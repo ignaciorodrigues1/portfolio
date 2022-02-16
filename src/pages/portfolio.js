@@ -146,19 +146,15 @@ export default function Portfolio() {
                       title: 'Black iD',
                       description: 'Black iD',
                       images: [
-                        require('@/img/resources/care26-small@75.jpg').default,
-                        require('@/img/resources/care26@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-gray-500',
                       href: 'https://care26.com',
                       body: (
                         <>
                           <p>
-                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
-                          </p>
-                          <p>
-                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
-                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                            Website, Backoffice, Mobile App. Frontend Developer.
                           </p>
                         </>
                       ),
@@ -167,19 +163,15 @@ export default function Portfolio() {
                       title: 'Boehringer Ingelheim',
                       description: 'A su lado',
                       images: [
-                        require('@/img/resources/care26-small@75.jpg').default,
-                        require('@/img/resources/care26@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-orange-500',
                       href: '',
                       body: (
                         <>
                           <p>
-                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
-                          </p>
-                          <p>
-                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
-                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                            Webapp. Education platform. FullStack developer.
                           </p>
                         </>
                       ),
@@ -188,19 +180,15 @@ export default function Portfolio() {
                       title: 'Andromeda Latam',
                       description: 'Sobio',
                       images: [
-                        require('@/img/resources/care26-small@75.jpg').default,
-                        require('@/img/resources/care26@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-blue-500',
                       href: 'https://care26.com',
                       body: (
                         <>
                           <p>
-                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
-                          </p>
-                          <p>
-                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
-                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                            Design Webapp, UI developer.
                           </p>
                         </>
                       ),
@@ -209,19 +197,15 @@ export default function Portfolio() {
                       title: 'Making Sense',
                       description: 'Care26 Website',
                       images: [
-                        require('@/img/resources/care26-small@75.jpg').default,
-                        require('@/img/resources/care26@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-green-500',
                       href: 'https://care26.com',
                       body: (
                         <>
                           <p>
-                            Enroll, waive, shop, use. Everything needed to manage your plan in one intuitive platform.
-                          </p>
-                          <p>
-                            Strong focus on process enhancement and deep integrations allows for a secure, real-time flow of important data, while 
-                            allowing users to focus on high-touch services and eliminating menial tasks and other timewasters.
+                            Website. UI/UX Developer.
                           </p>
                         </>
                       ),
@@ -230,15 +214,15 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'Doppler Website',
                       images: [
-                        require('@/img/resources/doppler-small@75.jpg').default,
-                        require('@/img/resources/doppler@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://fromdoppler.com',
                       body: (
                         <>
                           <p>
-                            Aprovecha el poder del Email, Automation & Data Marketing. Envía Campañas a tus clientes. Configura mensajes a partir del comportamiento de los usuarios en tu Sitio Web o E-commerce. Mide y compara tus resultados, ¡y mucho más!
+                            website. UI Developer.
                           </p>
                         </>
                       ),
@@ -247,15 +231,15 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'Doppler Academy',
                       images: [
-                        require('@/img/resources/doppler-academy-small@75.jpg').default,
-                        require('@/img/resources/doppler-academy@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://fromdoppler.com',
                       body: (
                         <>
                           <p>
-                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                            Educational platform. UI Developer.
                           </p>
                         </>
                       ),
@@ -264,15 +248,15 @@ export default function Portfolio() {
                       title: 'Doppler',
                       description: 'EMMS 2017-2018-2019-2020',
                       images: [
-                        require('@/img/resources/doppler-academy-small@75.jpg').default,
-                        require('@/img/resources/doppler-academy@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://goemms.com',
                       body: (
                         <>
                           <p>
-                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                           Websitapp. UI Developer.
                           </p>
                         </>
                       ),
@@ -281,15 +265,15 @@ export default function Portfolio() {
                       title: 'Embalajes Santa Catalina',
                       description: 'Embalajes Santa Catalina',
                       images: [
-                        require('@/img/resources/doppler-academy-small@75.jpg').default,
-                        require('@/img/resources/doppler-academy@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-red-500',
                       href: 'https://fromdoppler.com',
                       body: (
                         <>
                           <p>
-                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                            Website. Wordpress Developer.
                           </p>
                         </>
                       ),
@@ -298,15 +282,15 @@ export default function Portfolio() {
                       title: 'Pasalto',
                       description: 'Pasalto',
                       images: [
-                        require('@/img/resources/doppler-academy-small@75.jpg').default,
-                        require('@/img/resources/doppler-academy@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-blue-500',
                       href: 'https://fromdoppler.com',
                       body: (
                         <>
                           <p>
-                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                            Website. Wordpress Developer.
                           </p>
                         </>
                       ),
@@ -315,15 +299,15 @@ export default function Portfolio() {
                       title: ' ',
                       description: 'Action - To do list',
                       images: [
-                        require('@/img/resources/doppler-academy-small@75.jpg').default,
-                        require('@/img/resources/doppler-academy@75.jpg').default,
+                        require('@/img/resources/default-small@75.png').default,
+                        require('@/img/resources/default@75.png').default,
                       ],
                       color: 'text-yellow-500',
                       href: 'https://goemms.com',
                       body: (
                         <>
                           <p>
-                            Capacítate gratis y online en Marketing Digital Alcanza tu máximo potencial de la mano de expertos. Aprende 100% online.
+                            App for Google Chrome. FullStack Developer.
                           </p>
                         </>
                       ),
@@ -383,7 +367,7 @@ export default function Portfolio() {
                       title: 'Contact me',
                       href: 'https://www.linkedin.com/in/ignaciorodrigues/',
                       description:
-                        'Join over 10,000 members on the Discord group to chat about Tailwind and other related topics.',
+                      "Let's talk!",
                       icon: (
                         <Icon className="bg-[#0E76A8]/[0.15] dark:bg-blue-700">
                           <LinkedinIcon className="w-6 h-auto dark:fill-blue-200" />

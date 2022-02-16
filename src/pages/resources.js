@@ -325,8 +325,7 @@ export default function Resources() {
               {
                 title: 'Contact me',
                 href: 'https://www.linkedin.com/in/ignaciorodrigues/',
-                description:
-                  'Join over 10,000 members on the Discord group to chat about Tailwind and other related topics.',
+                description: "Let's talk!",
                 icon: (
                   <Icon className="bg-[#0E76A8]/[0.15] dark:bg-blue-700">
                     <LinkedinIcon className="w-6 h-auto dark:fill-blue-200" />
