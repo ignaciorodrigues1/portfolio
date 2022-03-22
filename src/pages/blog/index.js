@@ -12,7 +12,7 @@ export default function Blog() {
           Blog
         </h1>
         <p className="text-lg text-slate-700 dark:text-slate-400">
-          <Widont>AI write about things, a bit of everything technology, development, UI, UX, processes and more.</Widont>
+          <Widont>Resumen de temas interesantes sobre diseño y desarrollo de productos.</Widont>
         </p>
       </header>
       <div className="space-y-16">
