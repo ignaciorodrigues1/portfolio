@@ -2,8 +2,8 @@ import { ignaciorodrigues } from '@/authors'
 import image from './card.jpg'
 
 export const meta = {
-  title: `"What's methods exist for arrays in Javascript?"`,
-  description: `Arrays in javascript have methods that allow us to perform an operation with all the elements of said array to achieve a specific goal, depending on the method we use.`,
+  title: `"¿Qué métodos existen para los arreglos en Javascript?"`,
+  description: `Los arreglos en javascript tienen métodos que nos permiten realizar una operación con todos los elementos para lograr un objetivo específico, vamos a revisar los mas importantes.`,
   date: '2022-01-24T18:30:00.000Z',
   authors: [ignaciorodrigues],
   image,
@@ -11,11 +11,11 @@ export const meta = {
 
 <!--excerpt-->
 
-There are many methods that make it easier for us to work with arrays, so in this post I want to make a summary of some functions that seem fundamental for development.
+Existen muchos métodos que nos facilitan el trabajo con los arreglos, por eso en este Post quiero hacer un resumen practico de algunas funciones que me parecen fundamentales para el día a día.
 
 <!--/excerpt-->
 
-There are many methods that make it easier for us to work with arrays, so in this post I want to make a summary of some functions that seem fundamental for development.
+Existen muchos métodos que nos facilitan el trabajo con los arreglos, por eso en este Post quiero hacer un resumen practico de algunas funciones que me parecen fundamentales para el día a día.
 
 <!--<div className="aspect-w-16 aspect-h-9">
   <iframe
@@ -26,8 +26,8 @@ There are many methods that make it easier for us to work with arrays, so in thi
   ></iframe>
 </div>-->
 
-["What's methods exist for arrays in Javascript?"](https://ignaciorodrigues.com/blog/javascript-arrays) Arrays in javascript have methods that allow us to perform an operation with all the elements of said array to achieve a specific goal, depending on the method we use.
-It is very useful to know these methods when developing since they make it easier for us to solve problems and can save us lines of code, so this time I bring you some examples of methods such as: map(), filter(), forEach( ), find(), sort(), some(), every(), etc.
+["¿Qué métodos existen para los arreglos en Javascript?"](https://ignaciorodrigues.com/blog/javascript-arrays) Los arreglos en Javascript tienen métodos que nos permiten realizar una operación con todos los elementos de dicho arreglo para lograr un objetivo específico.
+Es muy útil conocer estos métodos a la hora de desarrollar, ya que nos facilitan la resolución de problemas y nos puede ahorrar líneas de código, por eso en este resumen practico les traigo algunos ejemplos de métodos como: map(), filter(), forEach( ), find(), sort(), some(), every() y algunos más.
 
 - [map()](#map)
 - [filter()](#filter)
@@ -45,7 +45,7 @@ It is very useful to know these methods when developing since they make it easie
 
 ## map()
 
-Permite recorrer el array y modificar los nuevos elementos presentes en el, retornando un nuevo array con la misma longitud que el original
+Permite recorrer el array, crea un nuevo array con la misma longitud que el original y el cual permite modificar los nuevos elementos presentes en el.
 
 ```javascript
   const array = [1,2,3,4,5,6,7];
@@ -55,7 +55,7 @@ Permite recorrer el array y modificar los nuevos elementos presentes en el, reto
 
 ## filter()
 
-Recorre el array y retorna un nuevo array con aquellos elementos que pasen una determinada condicion.
+Recorre el array y retorna un nuevo array con aquellos elementos que cumplan una determinada condición aplicada por la función dada.
 
 ```javascript
   const array = [1,2,3,4,5,6,7];
@@ -66,10 +66,10 @@ Recorre el array y retorna un nuevo array con aquellos elementos que pasen una d
 
 ## forEach()
 
-Permite iterar el contenido de un array. Recibe un callback que toma como parametro el elemento actual de la iteracion y el indice mismo.
+Permite iterar el contenido de un array. Recibe un callback que toma como parametro el elemento actual de la iteración, el indice mismo y ejecuta la función indicada una vez por cada elemento. 
 
 ```javascript
-  const heroes = ["Superman", "batman", "Flash", "Aquaman"];
+  const heroes = ["Superman", "Batman", "Flash", "Aquaman"];
   const newHeroes = heroes.forEach((element, i) => {
     console.log(`${element} se encuentra en el indice ${i}`);
   });
@@ -91,7 +91,7 @@ Ordena los elementos del array y retorna el arreglo ordenado. Los elementos se o
 
 ```javascript
   const array = [1,2,3,4,5,6,7];
-  const heroes = ["superman", "Batman", "Flash", "Aquaman"];
+  const heroes = ["Superman", "Batman", "Flash", "Aquaman"];
 
   // Ordenar de forma descendente
   const descArray = array.sort((a, b) => (a > b ? -1 : 1));
@@ -104,7 +104,7 @@ Ordena los elementos del array y retorna el arreglo ordenado. Los elementos se o
 
 ## some()
 
-Itera el array y retorna un booleano si como minimo uno de los elementos presentes en el array pasa una codicion determinada. Recibe un callback que se encargara de preguntar aquello que queremos dentro del array.
+Itera el array y retorna un booleano si como minimo uno de los elementos presentes en el array pasa una codición determinada. Recibe un callback que se encargara de preguntar aquello que queremos dentro del array.
 
 ```javascript
   const array = [1,2,3,4,5,6,7];
@@ -120,7 +120,7 @@ Itera el array y retorna un booleano si como minimo uno de los elementos present
 
 ## every()
 
-Es similar al some(), ya que itera el array y retorna un booleano. Pero esta vez, para que dicho booleano sea true todos los elementos del array deberan pasar por la condicion dada.
+Es similar al some(), ya que itera el array y retorna un booleano. Pero esta vez, para que dicho booleano sea true todos los elementos del array deberan pasar por la condición dada.
 
 ```javascript
   const array = [1,2,3,4,5,6,7];
@@ -136,7 +136,7 @@ Es similar al some(), ya que itera el array y retorna un booleano. Pero esta vez
 
 ## concat()
 
-Se utiliza para unir dos o mas arrays. Este metodo no cambia los arrays existentes, sino que devuelve un nuevo array.
+Se utiliza para unir dos o mas arrays. Este metódo no cambia los arrays existentes, sino que devuelve un nuevo array.
 
 ```javascript
   const array1 = ["a", "b", "c"];
@@ -159,19 +159,19 @@ Determina si un array incluye un determinado elemento y retorna un booleano segu
 
 ## join()
 
-Une todos los elementos de un array en una cadena. Podemos pasarle como parametro el caracter de separacion que debe agregar entre los elementos.
+Une todos los elementos de un array en una cadena. Podemos pasarle como parametro el carácter de separación que se debe agregar entre los elementos.
 
 ```javascript
-  const array = ["Jack", "Nicky", "Randal"];
+  const array = ["Superman", "Batman", "Aquaman"];
 
-  console.log(array.log("")); // JackNickyRandal
-  console.log(array.log(" ")); // Jack Nicky Randal
-  console.log(array.log("-")); // Jack-Nicky-Randal
+  console.log(array.log("")); // SupermanBatmanAquaman
+  console.log(array.log(" ")); // Superman Batman Aquaman
+  console.log(array.log("-")); // Superman-Batman-Aquaman
 ```
 
 ## reduce()
 
-Aplica una funcion a un acumulador y a cada valor de un array (de izquierda a derecha) para reducirlo a un unico valor.
+Aplica una función a un acumulador y a cada valor de un array (de izquierda a derecha) para reducirlo a un único valor.
 
 ```javascript
   const array = [1,2,3,4,5,6,7];
@@ -205,5 +205,5 @@ Retorna el indice del primer elemento de un array que cumpla con la funcion de p
 ```
 
 <Footer>
-  Want to talk about this post? <a href="https://github.com/ignaciorodrigues/">Discuss this on GitHub →</a>
+  Gracias por leer y espero que te haya sido de ayuda, recuerda este es un resumen práctico por lo que puedes acceder las veces que quieras para tu trabajo. En el siguiente Post veremos como trabajar los objetos!
 </Footer>

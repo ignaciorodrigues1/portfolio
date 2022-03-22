@@ -1,7 +1,7 @@
+import { Button } from '@/components/Button'
 import Link from 'next/link'
 import clsx from 'clsx'
 import tinytime from 'tinytime'
-import { Button } from '@/components/Button'
 
 const postDateTemplate = tinytime('{MMMM} {DD}, {YYYY}')
 
@@ -47,7 +47,7 @@ export default function PostItem({ title, category, slug, date, children, wide =
           <circle cx="1" cy="1" r="1" />
         </svg>
         <Button href={`/blog/${slug}`}>
-          Read more<span className="sr-only">, {title}</span>
+          Seguir leyendo <span className="sr-only">, {title}</span>
         </Button>
       </div>
     </article>
